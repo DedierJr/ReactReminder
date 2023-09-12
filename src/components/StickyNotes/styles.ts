@@ -26,6 +26,11 @@ export const Container = styled.div`
 `;
 
 export const Grid = styled.div`
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    > div {
     display: grid;
 
     grid-template-columns: repeat(4, 1fr);
@@ -35,8 +40,10 @@ export const Grid = styled.div`
     width: 90%;
 
     margin-bottom: 5rem;
+    margin-left: 3rem;
+    }
 
-    > div {
+    > div > div {
         display: flex;
         flex-direction: column;
 
