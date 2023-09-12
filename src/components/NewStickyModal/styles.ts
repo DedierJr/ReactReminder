@@ -45,7 +45,7 @@ border-radius: 8px;
     }
 
     > h1 {
-        color: var(--purple-900);
+        color: var(--cor_2);
         font-family: "Roboto";
     }
 }

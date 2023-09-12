@@ -1,9 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
     :root {
-        --purple-300: rgba(85, 49,  255, 0.25);
-        --purple-600: #5531FF;
-        --purple-900: #150057;
+        --cor_1: #F2D750;
+        --cor_2: #29A678;
+        --cor_3: #77DCF2;
+        --cor_4: #F2F2F0;
+        --cor_5: #8C7120;
+
+        --proxCor: var(--cor_1);
 
         --font-black: #1c1c1c;
         --font-white: #fff;
@@ -24,3 +28,4 @@ export const GlobalStyle = createGlobalStyle`
         }
     }
 `;
+

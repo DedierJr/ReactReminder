@@ -4,7 +4,7 @@ export const Container = styled.button`
     display: flex;
     padding: 0.7rem 1.5rem;
 
-    background-color: var(--purple-600);
+    background-color: var(--cor_1);
     color: var(--font-white);
 
     font-family: "Roboto";

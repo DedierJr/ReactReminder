@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import heroImage from "../../assets/images/Hero.png";
+import heroImage from "../../assets/images/Hero.jpg";
 
 export function Hero() {
     return (
